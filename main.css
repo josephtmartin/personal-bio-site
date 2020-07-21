@@ -1,4 +1,58 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#navLinks {
+  list-style-type: none;
+  display: flex;
+  padding: 7.5px 10px 7.5px 10px;
+}
+
+nav h2 {
+  color: #777;
+  font-size: 20px;
+  padding: 7.5px 10px 7.5 10px;
+}
+
+#bioPage {
+  padding: 10px 15px;
+  background-color: #555;
+}
+
+#technologiesPage {
+  padding: 10px 15px;
+  background-color: #888;
+}
+
+#technologiesPage ul li {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
 }
