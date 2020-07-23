@@ -3,7 +3,6 @@
 const projects = [
   {
     title: "Cool Project",
-    // screenshot: "http://gotoflashgames.com/files/file/033.jpg",
     screenshot:
       "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
@@ -16,7 +15,6 @@ const projects = [
 
   {
     title: "Cool Project",
-    // screenshot: "http://gotoflashgames.com/files/file/033.jpg",
     screenshot:
       "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
@@ -47,12 +45,16 @@ const createProjectCards = () => {
     domString += `<div>Get my GitHub Profile<a href=${projects[i].githubUrl}>HERE</a></div>`;
     domString += `</div>`;
   }
-
-//   if (projects.available === true) {
-//     printToDom("projectsPage", domString);
-//   }
-
+  // Need to: add logic to only show the project on the page if it has a value of true in the available property.
+  if (projects.available === true) {
+    printToDom("projectsPage", domString);
+  }
   printToDom("projectsPage", domString);
 };
 
-createProjectCards();
+// Created init1 function to store my calls
+const init1 = () => {
+  createProjectCards();
+};
+
+init1();
