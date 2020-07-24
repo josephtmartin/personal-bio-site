@@ -40,16 +40,14 @@ const createProjectCards = () => {
     domString += `<div><img src=${projects[i].screenshot} alt="screenshot"></div>`;
     domString += `<div>${projects[i].description}</div>`;
     domString += `<div>${projects[i].technologiesUsed}</div>`;
-    // domString += `<div>${projects[i].available}</div>`;
+    domString += `<div>${projects[i].available}</div>`;
     domString += `<div>Get the project <a href=${projects[i].url}>HERE</a></div>`;
     domString += `<div>Get my GitHub Profile<a href=${projects[i].githubUrl}>HERE</a></div>`;
     domString += `</div>`;
+    if (projects[i].available === true) {
+      printToDom("projectsPage", domString);
+    }
   }
-  // Need to: add logic to only show the project on the page if it has a value of true in the available property.
-  if (projects.available === true) {
-    printToDom("projectsPage", domString);
-  }
-  printToDom("projectsPage", domString);
 };
 
 // Created init1 function to store my calls
