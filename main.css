@@ -7,14 +7,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #222;
+  background: #4A8FE7;
 }
 
 nav a {
   display: inline-block;
   padding: 10px 15px;
-  color: white;
+  color: #605F5E;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  cursor: pointer;
 }
 
 #navLinks {
@@ -24,24 +29,64 @@ nav a {
 }
 
 nav h2 {
-  color: #777;
+  color: #605F5E;
   font-size: 20px;
   padding: 7.5px 10px 7.5 10px;
 }
 
 #bioPage {
   padding: 10px 15px;
-  background-color: #555;
+  background-color: #46494C;
 }
 
 #technologiesPage {
   padding: 10px 15px;
-  background-color: #888;
+  background-color: #B8BDB5;
 }
 
 #technologiesPage ul li {
   list-style-type: none;
 }
+
+#projectsPage {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #5c7aff;
+}
+
+.project {
+  background-color: white;
+  width: 30%;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.projectImg {
+  display: flex;
+  justify-content: center;
+}
+
+.project a {
+  text-decoration: none;
+  color: gray;
+}
+
+.project a:hover {
+  color: black;
+}
+
+.project-title,
+.projectDescription,
+.projectTechUsed,
+.url,
+.githubUrl {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
 
 footer {
   display: flex;
@@ -55,4 +100,7 @@ footer a {
   padding: 10px 15px;
   color: white;
   text-decoration: none;
+}
+footer a:hover {
+  color: #555;
 }
