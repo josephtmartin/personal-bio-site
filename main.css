@@ -23,8 +23,9 @@ nav a:hover {
 }
 
 #navLinks {
-  list-style-type: none;
   display: flex;
+  justify-content: center;
+  list-style-type: none;
   padding: 7.5px 10px 7.5px 10px;
 }
 
@@ -35,13 +36,46 @@ nav h2 {
 }
 
 #bioPage {
-  padding: 10px 15px;
-  background-color: #46494C;
+  padding: 15px 15px 15px;
+  background-color: black;
+}
+
+#bioPage h1 {
+  color: white;
+  line-height: 50px;
+  font-family: sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(82, 135, 255);
+  max-width: 80%;
+}
+
+.bioContainer {
+  display: flex;
+
+}
+
+#bioPage p {
+  color: white;
+  padding: 20px 20px;
+  margin: 10px 10px 10px 10px;
+  font-size: 1.6em;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  flex: 1;
+  margin: 10px 10px;
 }
 
 #technologiesPage {
   padding: 10px 15px;
-  background-color: #B8BDB5;
+  background-color: #b8bdb5;
 }
 
 #technologiesPage ul li {
@@ -52,7 +86,7 @@ nav h2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background-color: #5c7aff;
+  background: url(https://wpamelia.com/wp-content/uploads/2019/02/4k-wallpaper-architecture-background-1308624.jpg);
 }
 
 .project {
@@ -73,7 +107,7 @@ nav h2 {
 }
 
 .project a:hover {
-  color:#555;
+  color: #555;
 }
 
 .project-title,
@@ -85,8 +119,6 @@ nav h2 {
   justify-content: center;
   font-weight: bold;
 }
-
-
 
 footer {
   display: flex;
