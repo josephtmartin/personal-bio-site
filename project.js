@@ -1,71 +1,70 @@
-"use strict";
+'use strict';
 
 const projects = [
   {
-    title: "Cool Project",
-    screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    title: 'Clothing Product Cards',
+    screenshot: 'https://i.postimg.cc/rpcYjQMQ/clothing-product-cards.png',
+    description:
+      "I built this as an exercise for my front end portion at NSS. The exercise was to build a grid of product cards for a company's products, I built it using HTML and CSS", // A good project description includes 'the what', 'the why', and 'the how'.
+    technologiesUsed: ' Tech Used: HTML, CSS, Version Control with Github',
     available: true,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
+    url: 'https://clothingproductcards.netlify.app/', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin/ASSIGNMENT-product-cards',
   },
   {
-    title: "Cool Project False",
+    title: 'Favorite Pies',
     screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+      'https://i.postimg.cc/6qVYyHMk/favorite-pies.png',
+    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      'HTML, CSS, Vanilla JavaScript, Version Control with Github',
+    available: true,
+    url: 'https://favoritepies.netlify.app/', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin/event-listeners',
+  },
+  {
+    title: 'Color Flipper',
+    screenshot:
+      'https://i.postimg.cc/SNrg4v28/color-flipper.png',
+    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
+    technologiesUsed:
+      'HTML, CSS, Vanilla JavaScript, Version Control with Github',
+    available: true,
+    url: 'https://joecolors.netlify.app/', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin/color-flipper-hack-code-warriors-team-4',
+  },
+  {
+    title: 'Cool Project',
+    screenshot:
+      'https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg',
+    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
+    technologiesUsed:
+      'HTML, CSS, Vanilla JavaScript, Version Control with Github',
     available: false,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
+    url: 'https://github.com/josephtmartin', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin',
   },
   {
-    title: "Cool Project",
+    title: 'Cool Project',
     screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+      'https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg',
+    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
+      'HTML, CSS, Vanilla JavaScript, Version Control with Github',
+    available: false,
+    url: 'https://github.com/josephtmartin', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin',
   },
   {
-    title: "Cool Project",
+    title: 'Cool Project',
     screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+      'https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg',
+    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
-  },
-  {
-    title: "Cool Project",
-    screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
-  },
-  {
-    title: "Cool Project",
-    screenshot:
-      "https://pbs.twimg.com/profile_images/1097349761189859330/5652XPXc_400x400.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true,
-    url: "https://github.com/josephtmartin", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/josephtmartin",
+      'HTML, CSS, Vanilla JavaScript, Version Control with Github',
+    available: false,
+    url: 'https://github.com/josephtmartin', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    githubUrl: 'https://github.com/josephtmartin',
   },
 ];
 
@@ -75,21 +74,21 @@ const printToDom = (divId, textToPrint) => {
 };
 
 const createProjectCards = () => {
-  let domString = "";
+  let domString = '';
 
   for (let i = 0; i < projects.length; i++) {
     if (projects[i].available === true) {
       domString += `<div class="project">`;
       domString += `<div class="project-title">${projects[i].title}</div>`;
-      domString += `<div class="projectImg"><img src=${projects[i].screenshot} alt="screenshot"></div>`;
+      domString += `<div class="projectImg"><img class="cardImg" src=${projects[i].screenshot} alt="screenshot"></div>`;
       domString += `<div class="projectDescription">${projects[i].description}</div>`;
       domString += `<div class="projectTechUsed">${projects[i].technologiesUsed}</div>`;
-      domString += `<div class="url"><a href=${projects[i].url}> Cool Project</a></div>`;
-      domString += `<div class="githubUrl"><a href=${projects[i].githubUrl}>GitHub Profile</a></div>`;
+      domString += `<div class="url"><a href=${projects[i].url} target="_blank"> Project Link</a></div>`;
+      domString += `<div class="githubUrl"><a href=${projects[i].githubUrl} target="_blank">GitHub Repo Link</a></div>`;
       domString += `</div>`;
     }
   }
-  printToDom("projectsPage", domString);
+  printToDom('projectsPage', domString);
 };
 
 // Created init1 function to store my calls
