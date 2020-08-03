@@ -11,4 +11,6 @@ This website showcases my skills with HTML, CSS, and JavaScript. Here you will l
 [Personal Bio Site](https://josephtmartin.netlify.app/)
 
 ### Technologies Used
-HTML, CSS, and JavaScript
+  *HTML
+  *CSS
+  *JavaScript
